@@ -68,7 +68,3 @@ nnoremap <silent> <expr> <CR> Highlighting()
 " Makes file you're currently on the working dir for nerdtree so that a new
 " file opens in the same place.
 autocmd BufEnter * lcd %:p:h
-
-" Prettier for JS
-" autocmd FileType javascript set formatprg=prettier\ --stdin
-" autocmd BufWritePre *.js :normal gggqG
